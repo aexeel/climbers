@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="cee6ea4b-6132-4c4a-be23-38f432d118ff">
+	<producedTypes>
+		<refType typeId="1ec1b20d-8046-4cbb-b4d9-41b3b3a0ea43"
+			valueTypeId="a0f6dfbb-0075-4fbc-a95a-d17f1089d6d1" />
+		<listType typeId="78d4b4cf-3024-405f-a0b3-9ed51be77445"
+			valueTypeId="de3a0892-55ae-45b8-b865-be90b2eacaaf" />
+		<managerType typeId="a5ed3ebe-dd0e-4797-a41f-b82c386c4b63"
+			valueTypeId="e0d24ce1-ab08-436b-bace-ac9f638caa2d" />
+	</producedTypes>
+	<name>ВидыСоревнования</name>
+	<synonym>
+		<key>ru</key>
+		<value>Виды соревнования</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="30ed7b31-fb4c-49ec-9698-05f6fb98698d">
+		<name>Болдер</name>
+		<synonym>
+			<key>ru</key>
+			<value>Болдер</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="7fc8d0f0-4070-4119-b7da-00872d63460c">
+		<name>Трудность</name>
+		<synonym>
+			<key>ru</key>
+			<value>Трудность</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="d074f837-5da8-4c68-a53d-98c50d02c1bf">
+		<name>СкоростьКлассика</name>
+		<synonym>
+			<key>ru</key>
+			<value>Скорость классика</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="66af358b-a63a-4e57-ad85-ab309e92751b">
+		<name>СкоростьЭталон</name>
+		<synonym>
+			<key>ru</key>
+			<value>Скорость эталон</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="131aef5d-0128-4a66-8235-1664e971e9f6">
+		<name>Многоборье</name>
+		<synonym>
+			<key>ru</key>
+			<value>Многоборье</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>

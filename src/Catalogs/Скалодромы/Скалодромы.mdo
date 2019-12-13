@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="8e209e6a-263a-4f7a-a1bc-fa4f1103a8f1">
+	<producedTypes>
+		<objectType typeId="af5d431f-ade7-4106-84b6-bde1c38e36f7"
+			valueTypeId="7d9f7578-93a3-4632-a843-09975a43d349" />
+		<refType typeId="0a29c49d-bc28-4e2d-8acc-ab193fe5baa5"
+			valueTypeId="56dbc309-e9c9-4ca0-8365-fe5524249adc" />
+		<selectionType typeId="ec16acc8-3430-452e-867b-094b084b09f4"
+			valueTypeId="e00f1161-9a88-44b6-81e8-b544f735c9f5" />
+		<listType typeId="588782cb-9628-46ec-97b3-16d865315ee7"
+			valueTypeId="945e27e6-2b4b-4d0e-84cd-ea07e7dd9fd8" />
+		<managerType typeId="d5dd54e5-89df-4df8-b0d8-c8caeb16df59"
+			valueTypeId="49f37d6e-02c7-4731-80d3-7d9f78bc3c81" />
+	</producedTypes>
+	<name>Скалодромы</name>
+	<synonym>
+		<key>ru</key>
+		<value>Скалодромы</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Catalog.Скалодромы.StandardAttribute.Code</inputByString>
+	<inputByString>Catalog.Скалодромы.StandardAttribute.Description</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<levelCount>2</levelCount>
+	<foldersOnTop>true</foldersOnTop>
+	<codeLength>9</codeLength>
+	<descriptionLength>25</descriptionLength>
+	<codeType>String</codeType>
+	<codeAllowedLength>Variable</codeAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<defaultPresentation>AsDescription</defaultPresentation>
+	<editType>InDialog</editType>
+	<choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

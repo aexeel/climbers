@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01d0592e-2c41-4fd1-841a-ed5280cc08ca">
+  <name>Скалолазики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скалолазики</value>
+  </synonym>
+  <comment></comment>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="332b8202-43e4-495b-8799-27f403619fe6"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="351a6e46-dc91-46d6-a274-1833147cd132"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="da3361f4-0395-4850-b4fb-ddf152f4998f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="681046a8-60af-4fda-b6fa-12e4523b6ec8"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="03e1c3c8-9fcc-4e3f-b05d-ae23380a5c48"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="199b3f4d-5f7e-4863-b1ca-b798592ec9a8"/>
+  <namePrefix></namePrefix>
+  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <vendor></vendor>
+  <version></version>
+  <updateCatalogAddress></updateCatalogAddress>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.12</compatibilityMode>
+  <languages uuid="8c89fde9-9eaa-4756-b369-560b3feb3b84">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <comment></comment>
+    <languageCode>ru</languageCode>
+  </languages>
+  <roles>Role.ПолныеПрава</roles>
+  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
+  <catalogs>Catalog.Соревнования</catalogs>
+  <catalogs>Catalog.КатегорииТрасс</catalogs>
+  <catalogs>Catalog.Скалодромы</catalogs>
+  <catalogs>Catalog.Спортсмены</catalogs>
+  <catalogs>Catalog.ЭтапыСоревнований</catalogs>
+  <documents>Document.РезультатыСоревнований</documents>
+  <enums>Enum.ВидыРезультатов</enums>
+  <enums>Enum.ВидыСоревнования</enums>
+</mdclass:Configuration>

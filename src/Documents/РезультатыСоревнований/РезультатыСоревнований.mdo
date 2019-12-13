@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="1ece7096-50b4-4505-b750-298d4699056e">
+	<producedTypes>
+		<objectType typeId="c87f6c27-61ee-47fb-ba09-b8e95ecbb54b"
+			valueTypeId="4f898ddd-9a83-46be-ba24-e35b853014ed" />
+		<refType typeId="6a97120b-709e-4a20-a40b-b491e2883863"
+			valueTypeId="2da60b42-e443-4f13-a899-f973495c6cef" />
+		<selectionType typeId="c6b20510-1fe1-41d5-894d-03822238f53d"
+			valueTypeId="e56ead8e-39f5-4810-b9dc-c430630d3bc4" />
+		<listType typeId="2a86061a-e4f3-487f-85ae-35f524281663"
+			valueTypeId="94ad5a9a-744d-4126-bbb5-acbdcc527ce5" />
+		<managerType typeId="937a8844-57e9-4c27-b806-eb56117fd029"
+			valueTypeId="d8b50098-a1b2-406a-91f5-3d96125c4ce3" />
+	</producedTypes>
+	<name>РезультатыСоревнований</name>
+	<synonym>
+		<key>ru</key>
+		<value>Результаты соревнований</value>
+	</synonym>
+	<comment></comment>
+	<useStandardCommands>true</useStandardCommands>
+	<inputByString>Document.РезультатыСоревнований.StandardAttribute.Number</inputByString>
+	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+	<createOnInput>Use</createOnInput>
+	<dataLockControlMode>Managed</dataLockControlMode>
+	<fullTextSearch>Use</fullTextSearch>
+	<numberType>String</numberType>
+	<numberLength>9</numberLength>
+	<numberAllowedLength>Variable</numberAllowedLength>
+	<checkUnique>true</checkUnique>
+	<autonumbering>true</autonumbering>
+	<postInPrivilegedMode>true</postInPrivilegedMode>
+	<unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+	<attributes uuid="cdca9cb7-d0eb-4f0b-badb-b2f5438e9958">
+		<name>Скалодром</name>
+		<synonym>
+			<key>ru</key>
+			<value>Скалодром</value>
+		</synonym>
+		<comment></comment>
+		<type>
+			<types>DocumentRef.РезультатыСоревнований</types>
+		</type>
+		<mask></mask>
+		<minValue xsi:type="core:UndefinedValue" />
+		<maxValue xsi:type="core:UndefinedValue" />
+		<fillValue xsi:type="core:UndefinedValue" />
+		<fullTextSearch>Use</fullTextSearch>
+		<dataHistory>Use</dataHistory>
+	</attributes>
+	<tabularSections uuid="4a5c35d1-5adc-44d1-bc7f-3df153169952">
+		<producedTypes>
+			<objectType typeId="9be3fde7-aa94-4030-b3f6-e6b36837c026"
+				valueTypeId="c83b0ab4-f8c9-48ce-9841-a82d7974b921" />
+			<rowType typeId="36c36194-e492-4d80-beed-f6b0a73e3f1e"
+				valueTypeId="8805493f-c48c-44cf-99e0-bf62efb29a95" />
+		</producedTypes>
+		<name>Результаты</name>
+		<synonym>
+			<key>ru</key>
+			<value>Результаты</value>
+		</synonym>
+		<comment></comment>
+		<attributes uuid="6460a41a-d190-4802-b093-d806f658ec4c">
+			<name>Этап</name>
+			<synonym>
+				<key>ru</key>
+				<value>Этап</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="adbf8ef3-a107-47c3-becf-5a40318af9d9">
+			<name>Спортсмен</name>
+			<synonym>
+				<key>ru</key>
+				<value>Спортсмен</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>CatalogRef.Спортсмены</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="85aa53df-31f9-4717-a38e-fa087ef1dde9">
+			<name>Трасса</name>
+			<synonym>
+				<key>ru</key>
+				<value>Трасса</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>String</types>
+				<stringQualifiers>
+					<length>10</length>
+				</stringQualifiers>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+		<attributes uuid="374fb198-31f2-48cd-8dcb-01d211ba20ed">
+			<name>Результат</name>
+			<synonym>
+				<key>ru</key>
+				<value>Результат</value>
+			</synonym>
+			<comment></comment>
+			<type>
+				<types>EnumRef.ВидыРезультатов</types>
+			</type>
+			<mask></mask>
+			<minValue xsi:type="core:UndefinedValue" />
+			<maxValue xsi:type="core:UndefinedValue" />
+			<dataHistory>Use</dataHistory>
+			<fullTextSearch>Use</fullTextSearch>
+		</attributes>
+	</tabularSections>
+</mdclass:Document>

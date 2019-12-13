@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
+	uuid="da27d3f2-a044-4972-9fea-116a889c4bb9">
+	<producedTypes>
+		<refType typeId="84738448-a490-455a-9252-c6af39130000"
+			valueTypeId="e8fde8ed-e628-4cf9-80df-06c21eaccd1e" />
+		<listType typeId="7ee57411-8aa5-4bb2-8d36-f55bf5734149"
+			valueTypeId="272ef4ca-9f76-4fb4-ba16-0e3b4b6465ad" />
+		<managerType typeId="76b335c1-2a52-469e-95f0-e6c01ea4c399"
+			valueTypeId="d0036fcc-a51b-4b81-aa43-997ec9744e5a" />
+	</producedTypes>
+	<name>ВидыРезультатов</name>
+	<synonym>
+		<key>ru</key>
+		<value>Виды результатов</value>
+	</synonym>
+	<comment></comment>
+	<quickChoice>true</quickChoice>
+	<choiceMode>BothWays</choiceMode>
+	<enumValues uuid="4b2d1e2d-d448-49d4-a1de-211ebd17e4cc">
+		<name>Топ</name>
+		<synonym>
+			<key>ru</key>
+			<value>Топ</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="eb0797f1-9c84-4f96-8b85-d8d8d7922f89">
+		<name>ТопФлеш</name>
+		<synonym>
+			<key>ru</key>
+			<value>Топ флеш</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+	<enumValues uuid="f8b0110a-0190-4285-b8fb-a405831e8c95">
+		<name>Зона</name>
+		<synonym>
+			<key>ru</key>
+			<value>Зона</value>
+		</synonym>
+		<comment></comment>
+	</enumValues>
+</mdclass:Enum>
