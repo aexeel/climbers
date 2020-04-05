@@ -13,7 +13,7 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="03e1c3c8-9fcc-4e3f-b05d-ae23380a5c48"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="199b3f4d-5f7e-4863-b1ca-b798592ec9a8"/>
   <namePrefix></namePrefix>
-  <configurationExtensionCompatibilityMode>8.3.12</configurationExtensionCompatibilityMode>
+  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -25,7 +25,7 @@
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.12</compatibilityMode>
+  <compatibilityMode>8.3.14</compatibilityMode>
   <languages uuid="8c89fde9-9eaa-4756-b369-560b3feb3b84">
     <name>Русский</name>
     <synonym>
