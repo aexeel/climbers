@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="78b3e314-e20f-462b-96ac-8c1ba57483ed">
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86c9dde8-1db8-438b-96b5-a1c49c69252f">
   <producedTypes>
-    <objectType typeId="2c8a6906-1f88-47a1-b44c-018e50ebc1d5" valueTypeId="a0bfff5c-1cf5-4009-b525-26fcdf0860a0"/>
-    <refType typeId="c47f68be-3203-424a-ac32-3a8fc81d704e" valueTypeId="f9e557a2-83b1-41d7-a22e-58a3993d6c99"/>
-    <selectionType typeId="b4b63139-2c83-4acb-b5c0-15d7ad9b3b59" valueTypeId="6f65abe7-40f5-454d-8127-f5273099d57b"/>
-    <listType typeId="55e98ebd-1fa8-4ebb-a33b-b56cf8492a02" valueTypeId="c501a4b8-6af8-4c16-b967-8d085c94f8c8"/>
-    <managerType typeId="b3207237-83de-4f3f-9fb1-5c8eb10d49af" valueTypeId="959156f9-2c3c-42e1-8daa-8b1cb840f23d"/>
+    <objectType typeId="a3aba6d1-11d0-4dd3-a164-f6e16a160a79" valueTypeId="c0657387-bdb5-4b41-a11e-43b5ab40edf1"/>
+    <refType typeId="f54eb715-372f-4f2f-97a1-158556cf4ec3" valueTypeId="bed12772-057b-4e85-9ece-0dc6fc1fa38b"/>
+    <selectionType typeId="4a563140-484f-4b00-8515-087baae624c0" valueTypeId="02224525-166d-41f4-aed8-2a23450979d3"/>
+    <listType typeId="25e443ad-c5f2-4489-8b3f-01d2a83cefc2" valueTypeId="baeb4c5a-6ed5-49ce-a6c4-6bb8bceec868"/>
+    <managerType typeId="b76b5e18-b902-4782-844f-01de24728eaf" valueTypeId="9bfa2a50-a671-45d1-bdbb-77d1116695fe"/>
   </producedTypes>
   <name>ГруппыСпортсменов</name>
   <synonym>
@@ -21,7 +21,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
-  <owners>Catalog.Соревнования</owners>
+  <owners>Catalog.ЭтапыСоревнований</owners>
   <codeLength>9</codeLength>
   <descriptionLength>25</descriptionLength>
   <codeType>String</codeType>

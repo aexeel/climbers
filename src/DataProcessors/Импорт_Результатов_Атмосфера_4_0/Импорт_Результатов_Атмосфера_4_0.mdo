@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df09b9fa-e61d-4c6d-950a-cde732942900">
+  <producedTypes>
+    <objectType typeId="f5b90f67-54d6-4b25-b180-d16776baf9b1" valueTypeId="0b9544bd-f24e-4d31-b1f0-d8d23cd69ad7"/>
+    <managerType typeId="89f5f218-fecc-43fb-9097-94ddfdf13813" valueTypeId="91395283-22db-4ac2-a190-24a5b7a3786e"/>
+  </producedTypes>
+  <name>Импорт_Результатов_Атмосфера_4_0</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт результатов атмосфера 4.0</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Импорт_Результатов_Атмосфера_4_0.Form.Форма</defaultForm>
+  <attributes uuid="1c05f1dd-5388-4e72-96ad-2ad237f9f2b9">
+    <name>ИмяФайлаСРезультатами</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя файла с результатами</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="d309d7f7-e279-491f-a68f-d88da32e46f2">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

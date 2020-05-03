@@ -32,14 +32,14 @@
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
   <attributes uuid="4f8432c5-9dad-46ae-9ed2-a2046b9f027c">
-    <name>ВидСоревнования</name>
+    <name>Вид</name>
     <synonym>
       <key>ru</key>
-      <value>Вид соревнования</value>
+      <value>Вид</value>
     </synonym>
     <comment></comment>
     <type>
-      <types>EnumRef.ВидыСоревнования</types>
+      <types>EnumRef.ВидыСоревнований</types>
     </type>
     <mask></mask>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -117,6 +117,8 @@
       <stringQualifiers/>
     </type>
     <mask></mask>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
@@ -125,39 +127,4 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="d7a7d75e-dbe6-4c9f-8144-6f214664fed6">
-    <producedTypes>
-      <objectType typeId="65957b6f-3e6b-4ca2-bf83-4eaf21c3b28c" valueTypeId="8b6ef621-6709-4ba2-b535-ea0b4579dd2f"/>
-      <rowType typeId="9e21a331-4044-4797-962d-cba2d5eeb4af" valueTypeId="66f4a0b1-bcae-4afc-adaa-458fddc2ca55"/>
-    </producedTypes>
-    <name>КатегорииТрасс</name>
-    <synonym>
-      <key>ru</key>
-      <value>Категории трасс</value>
-    </synonym>
-    <attributes uuid="4d6845b2-3e75-4f15-a055-affd59efed0f">
-      <name>Этап</name>
-      <synonym>
-        <key>ru</key>
-        <value>Этап</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.ЭтапыСоревнований</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="04af6d32-64a7-4e4a-933a-9bd61918a9f5">
-      <name>Категория</name>
-      <synonym>
-        <key>ru</key>
-        <value>Категория</value>
-      </synonym>
-      <type>
-        <types>CatalogRef.КатегорииТрасс</types>
-      </type>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
 </mdclass:Catalog>

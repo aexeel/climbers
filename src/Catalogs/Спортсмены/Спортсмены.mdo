@@ -1,40 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass"
-	uuid="c8a08e76-f904-42cb-8dac-4c7d46edf205">
-	<producedTypes>
-		<objectType typeId="f12b95e8-464d-4a3b-9de6-9d2315a2e93d"
-			valueTypeId="b66df19f-f797-42d5-aae4-d9f0a3e978fd" />
-		<refType typeId="5ca3f5d3-99ae-46cb-a402-2ae6a5aa43cb"
-			valueTypeId="30eccc3e-0e8f-4560-b017-bd6ad6b041dc" />
-		<selectionType typeId="e60750a0-7238-4a33-b93d-da90cf5a8891"
-			valueTypeId="a0cf6470-03d2-482c-b59a-078ac9026fba" />
-		<listType typeId="1859300c-10f5-494e-9b36-e6849f283163"
-			valueTypeId="b2e0711c-d6d3-4ce0-88c3-e3a64eea6aa1" />
-		<managerType typeId="6a037b38-760a-49d9-b3e8-a9bee4c142f7"
-			valueTypeId="c49f1be9-8075-49d2-8e25-e157fa040da6" />
-	</producedTypes>
-	<name>Спортсмены</name>
-	<synonym>
-		<key>ru</key>
-		<value>Спортсмены</value>
-	</synonym>
-	<comment></comment>
-	<useStandardCommands>true</useStandardCommands>
-	<inputByString>Catalog.Спортсмены.StandardAttribute.Code</inputByString>
-	<inputByString>Catalog.Спортсмены.StandardAttribute.Description</inputByString>
-	<fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
-	<createOnInput>Use</createOnInput>
-	<dataLockControlMode>Managed</dataLockControlMode>
-	<fullTextSearch>Use</fullTextSearch>
-	<levelCount>2</levelCount>
-	<foldersOnTop>true</foldersOnTop>
-	<codeLength>9</codeLength>
-	<descriptionLength>25</descriptionLength>
-	<codeType>String</codeType>
-	<codeAllowedLength>Variable</codeAllowedLength>
-	<checkUnique>true</checkUnique>
-	<autonumbering>true</autonumbering>
-	<defaultPresentation>AsDescription</defaultPresentation>
-	<editType>InDialog</editType>
-	<choiceMode>BothWays</choiceMode>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8a08e76-f904-42cb-8dac-4c7d46edf205">
+  <producedTypes>
+    <objectType typeId="f12b95e8-464d-4a3b-9de6-9d2315a2e93d" valueTypeId="b66df19f-f797-42d5-aae4-d9f0a3e978fd"/>
+    <refType typeId="5ca3f5d3-99ae-46cb-a402-2ae6a5aa43cb" valueTypeId="30eccc3e-0e8f-4560-b017-bd6ad6b041dc"/>
+    <selectionType typeId="e60750a0-7238-4a33-b93d-da90cf5a8891" valueTypeId="a0cf6470-03d2-482c-b59a-078ac9026fba"/>
+    <listType typeId="1859300c-10f5-494e-9b36-e6849f283163" valueTypeId="b2e0711c-d6d3-4ce0-88c3-e3a64eea6aa1"/>
+    <managerType typeId="6a037b38-760a-49d9-b3e8-a9bee4c142f7" valueTypeId="c49f1be9-8075-49d2-8e25-e157fa040da6"/>
+  </producedTypes>
+  <name>Спортсмены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спортсмены</value>
+  </synonym>
+  <comment></comment>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Спортсмены.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Спортсмены.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="770d15c2-b79e-4aae-a3f8-803a693cb24b">
+    <name>Пол</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пол</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Пол</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7e8b3ea3-7be0-40da-b7b3-5f1565a6bd4c">
+    <name>ГодРождения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Год рождения</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

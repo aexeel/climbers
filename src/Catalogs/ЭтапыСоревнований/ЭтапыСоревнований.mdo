@@ -31,4 +31,66 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="3f5e4cb7-fdc7-4b5e-8ca2-aae0cdaadcf3">
+    <name>КатегорииТрассЗакрыты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категории трасс закрыты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="604a64b6-a103-4df4-b6b1-34e7a2ea4ba5">
+    <name>РазделениеСпортсменовНаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделение спортсменов на группы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="d583e9bd-663d-4761-8da5-1c44844b1e76">
+    <producedTypes>
+      <objectType typeId="2ccb4c5a-f852-4f2d-8536-b31fc03d98d7" valueTypeId="81a3def3-d0b1-4d71-9741-4a4047199ba1"/>
+      <rowType typeId="e20f91c8-f771-40e0-b7b7-080ff0159539" valueTypeId="15d26cb9-ca6b-4492-9f59-320c0325c177"/>
+    </producedTypes>
+    <name>Трассы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Трассы</value>
+    </synonym>
+    <attributes uuid="0b2eb036-90a5-4a3d-a861-66bd9180ac10">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a74195b4-f15c-4c4c-9cae-8a801ec50f18">
+      <name>Категория</name>
+      <synonym>
+        <key>ru</key>
+        <value>Категория</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КатегорииТрасс</types>
+      </type>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
 </mdclass:Catalog>

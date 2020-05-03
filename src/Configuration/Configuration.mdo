@@ -36,13 +36,15 @@
     <languageCode>ru</languageCode>
   </languages>
   <roles>Role.ПолныеПрава</roles>
-  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <catalogs>Catalog.Соревнования</catalogs>
   <catalogs>Catalog.КатегорииТрасс</catalogs>
   <catalogs>Catalog.Скалодромы</catalogs>
   <catalogs>Catalog.Спортсмены</catalogs>
   <catalogs>Catalog.ЭтапыСоревнований</catalogs>
+  <catalogs>Catalog.ГруппыСпортсменов</catalogs>
   <documents>Document.РезультатыСоревнований</documents>
   <enums>Enum.ВидыРезультатов</enums>
-  <enums>Enum.ВидыСоревнования</enums>
+  <enums>Enum.ВидыСоревнований</enums>
+  <enums>Enum.Пол</enums>
+  <dataProcessors>DataProcessor.Импорт_Результатов_Атмосфера_4_0</dataProcessors>
 </mdclass:Configuration>
